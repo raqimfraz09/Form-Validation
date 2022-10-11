@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    font-family: cursive;
+    background:-webkit-radial-gradient(top left, #6d3c3c,#61ab9b);
+}
+h1{
+    text-align: center;
+    text-shadow: #6d3c3c;
+}
+
+.form{
+    width: 180%;
+}
+h2 {
+    text-align: center;
+    color: #75d1ae;
+}
+form {
+    width: 400px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    background-color: rgb(188, 124, 126);
+    margin: 4% auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #a9bae64a;
+}
+.box {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type=text]{
+        outline: none;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #6a9690;
+    border-color: #b7dcde;
+    box-shadow: 0 3px 0 #a36358;
+    color: rgb(15, 14, 14);
+    margin-top: 18px;
+    cursor: pointer;
+    border-radius: 60px 60px 60px 60px;
+}
+input[type="submit"]:hover {
+    background: #9e5d51;
+    border-color: #bd432e;
+}
+
+.input-1{
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border:1px solid #01cc40;
+}
+.input-2{
+    background-image: url(../images/cancel.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border:1px solid red;
+}
+.input-3{
+    border:1px solid #01cc40!important;
+}
+select{
+    outline: none!important;
+}
+.input-4{
+    border:1px solid red;
+}
